@@ -1,0 +1,48 @@
+.botoes-01{
+    width: 120px;
+}
+
+.botoes-02{
+    width: 120px;
+}
+
+button{
+    width: 100%;
+}
+
+p{
+    text-align: justify;
+}
+
+@media only screen and (max-width: 768px){
+    .botoes-02{
+        display: none;
+    }
+
+    .imagem{
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1279px){
+    .botoes-01{
+        display: none;
+    }
+
+    .imagem{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1280px){
+    .botoes-01{
+        display: none;
+    }
+
+    img{
+        display: block;
+        width: 50%;
+        height: 50%;
+    }
+}

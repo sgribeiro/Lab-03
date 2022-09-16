@@ -1,0 +1,62 @@
+.questao_01{
+    width: 100%;    
+}
+
+.questao_02{
+    width: 100%;    
+}
+
+@media only screen and (max-width: 320px) {
+    .questao_01 {
+      background-color: black;
+      color:white;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+    .questao_01 {
+      background-color: lightblue;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+    .questao_01 {
+      background-color: lightgreen;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .questao_01 {
+      background-color: lightyellow;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 800px) {
+    .questao_01 {
+      background-color: #422005;
+    }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1024px) {
+    .questao_01 {
+      background-color: royalblue;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+    .questao_01 {
+      background-color: green;
+    }
+}
+
+@media only screen and (min-width: 1281px) {
+    .questao_01 {
+      background-color: crimson;
+    }
+}
+
+@media (orientation: landscape) {
+    .questao_02 {
+      background-color: rgb(32, 163, 158);
+    }
+}
